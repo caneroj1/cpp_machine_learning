@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		2E9FD6121B5ACF1E00025665 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2E9FD6111B5ACF1E00025665 /* main.cpp */; };
+		2E9FD61A1B5ACF7000025665 /* linear_regression.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2E9FD6181B5ACF7000025665 /* linear_regression.cpp */; };
+		2E9FD61C1B5AD1E800025665 /* linear_dataset.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2E9FD61B1B5AD1E800025665 /* linear_dataset.cpp */; };
+		2E9FD61F1B5AD68600025665 /* utilities.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2E9FD61E1B5AD68600025665 /* utilities.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,10 @@
 /* Begin PBXFileReference section */
 		2E9FD60E1B5ACF1E00025665 /* MachineLearning */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MachineLearning; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E9FD6111B5ACF1E00025665 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		2E9FD6181B5ACF7000025665 /* linear_regression.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = linear_regression.cpp; sourceTree = "<group>"; };
+		2E9FD6191B5ACF7000025665 /* linear_regression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = linear_regression.h; sourceTree = "<group>"; };
+		2E9FD61B1B5AD1E800025665 /* linear_dataset.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = linear_dataset.cpp; sourceTree = "<group>"; };
+		2E9FD61E1B5AD68600025665 /* utilities.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = utilities.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +64,21 @@
 		2E9FD6101B5ACF1E00025665 /* MachineLearning */ = {
 			isa = PBXGroup;
 			children = (
+				2E9FD61D1B5AD67600025665 /* utils */,
 				2E9FD6111B5ACF1E00025665 /* main.cpp */,
+				2E9FD6181B5ACF7000025665 /* linear_regression.cpp */,
+				2E9FD6191B5ACF7000025665 /* linear_regression.h */,
+				2E9FD61B1B5AD1E800025665 /* linear_dataset.cpp */,
 			);
 			path = MachineLearning;
+			sourceTree = "<group>";
+		};
+		2E9FD61D1B5AD67600025665 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				2E9FD61E1B5AD68600025665 /* utilities.cpp */,
+			);
+			name = utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,6 +138,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E9FD6121B5ACF1E00025665 /* main.cpp in Sources */,
+				2E9FD61C1B5AD1E800025665 /* linear_dataset.cpp in Sources */,
+				2E9FD61F1B5AD68600025665 /* utilities.cpp in Sources */,
+				2E9FD61A1B5ACF7000025665 /* linear_regression.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
