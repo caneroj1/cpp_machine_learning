@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E905D4E1B5BEF2F00306612 /* linear_regression.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2E9FD6181B5ACF7000025665 /* linear_regression.cpp */; };
 		2E9FD6121B5ACF1E00025665 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2E9FD6111B5ACF1E00025665 /* main.cpp */; };
-		2E9FD61A1B5ACF7000025665 /* linear_regression.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2E9FD6181B5ACF7000025665 /* linear_regression.cpp */; };
 		2E9FD61C1B5AD1E800025665 /* linear_dataset.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2E9FD61B1B5AD1E800025665 /* linear_dataset.cpp */; };
 		2E9FD61F1B5AD68600025665 /* utilities.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2E9FD61E1B5AD68600025665 /* utilities.cpp */; };
 /* End PBXBuildFile section */
@@ -146,9 +146,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E9FD6121B5ACF1E00025665 /* main.cpp in Sources */,
+				2E905D4E1B5BEF2F00306612 /* linear_regression.cpp in Sources */,
 				2E9FD61C1B5AD1E800025665 /* linear_dataset.cpp in Sources */,
 				2E9FD61F1B5AD68600025665 /* utilities.cpp in Sources */,
-				2E9FD61A1B5ACF7000025665 /* linear_regression.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
