@@ -27,11 +27,11 @@
 
 /* Begin PBXFileReference section */
 		2E9FD60E1B5ACF1E00025665 /* MachineLearning */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MachineLearning; sourceTree = BUILT_PRODUCTS_DIR; };
-		2E9FD6111B5ACF1E00025665 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		2E9FD6181B5ACF7000025665 /* linear_regression.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = linear_regression.cpp; sourceTree = "<group>"; };
-		2E9FD6191B5ACF7000025665 /* linear_regression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = linear_regression.h; sourceTree = "<group>"; };
-		2E9FD61B1B5AD1E800025665 /* linear_dataset.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = linear_dataset.cpp; sourceTree = "<group>"; };
-		2E9FD61E1B5AD68600025665 /* utilities.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = utilities.cpp; sourceTree = "<group>"; };
+		2E9FD6111B5ACF1E00025665 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = linear_regression/main.cpp; sourceTree = "<group>"; };
+		2E9FD6181B5ACF7000025665 /* linear_regression.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = linear_regression.cpp; path = linear_regression/linear_regression.cpp; sourceTree = "<group>"; };
+		2E9FD6191B5ACF7000025665 /* linear_regression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = linear_regression.h; path = linear_regression/linear_regression.h; sourceTree = "<group>"; };
+		2E9FD61B1B5AD1E800025665 /* linear_dataset.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = linear_dataset.cpp; path = linear_regression/linear_dataset.cpp; sourceTree = "<group>"; };
+		2E9FD61E1B5AD68600025665 /* utilities.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = utilities.cpp; path = utilities/utilities.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +45,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E905D4D1B5BEDA700306612 /* linear_regression */ = {
+			isa = PBXGroup;
+			children = (
+				2E9FD6111B5ACF1E00025665 /* main.cpp */,
+				2E9FD6181B5ACF7000025665 /* linear_regression.cpp */,
+				2E9FD6191B5ACF7000025665 /* linear_regression.h */,
+				2E9FD61B1B5AD1E800025665 /* linear_dataset.cpp */,
+			);
+			name = linear_regression;
+			sourceTree = "<group>";
+		};
 		2E9FD6051B5ACF1E00025665 = {
 			isa = PBXGroup;
 			children = (
@@ -65,10 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				2E9FD61D1B5AD67600025665 /* utils */,
-				2E9FD6111B5ACF1E00025665 /* main.cpp */,
-				2E9FD6181B5ACF7000025665 /* linear_regression.cpp */,
-				2E9FD6191B5ACF7000025665 /* linear_regression.h */,
-				2E9FD61B1B5AD1E800025665 /* linear_dataset.cpp */,
+				2E905D4D1B5BEDA700306612 /* linear_regression */,
 			);
 			path = MachineLearning;
 			sourceTree = "<group>";
@@ -257,6 +265,7 @@
 				2E9FD6171B5ACF1E00025665 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

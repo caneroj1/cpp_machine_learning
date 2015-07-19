@@ -13,21 +13,21 @@
 #include <vector>
 #include <iostream>
 #include <fstream>
-#include <sstream>
+#include <cmath>
 
 class LinearRegression {
 private:
-    double _thetaZero, _thetaOne, _learningRate;
+    double _thetaZero, _thetaOne, _learningRate, _delta;
     std::vector<LinearDataSet> _dataset;
     
     double hypothesis(double x);
     void gradientDescent();
     
 public:
-    LinearRegression(double learningRate, double tOne = 0, double tTwo = 0);
+    LinearRegression(double learningRate, double tOne = 0, double tTwo = 0, double delta = 0.00005);
     void learn();
     void setDataSetFromFile(std::string);
-    void predict(LinearDataSet);
+    void predict(LinearDataSet*);
     void setDataSet(std::vector<LinearDataSet>);
     std::vector<LinearDataSet> getDataSet();
 };
